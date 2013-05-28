@@ -1,0 +1,125 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+@font-face {
+    font-family: 'strokeregular';
+    src: url('stylesheets/fonts/stroke/stroke-regular-webfont.eot');
+    src: url('stylesheets/fonts/stroke/stroke-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stylesheets/fonts/stroke/stroke-regular-webfont.woff') format('woff'),
+         url('stylesheets/fonts/stroke/stroke-regular-webfont.ttf') format('truetype'),
+         url('stylesheets/fonts/stroke/stroke-regular-webfont.svg#strokeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'strokeregular', verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3.55em; 
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+body {
+  background-color: #white;
+}
+
+.slider-container {
+  margin-top: 68px;
+  background-color: #ABC0BE;
+  padding: 6.5% 0;
+  -webkit-box-shadow: -1px 10px 11px -9px #444 inset, 0px -10px 11px -9px #444 inset;
+          box-shadow: -1px 10px 11px -9px #444 inset, 0px -10px 11px -9px #444 inset;
+
+}
+
+#header-container, #footer-container {
+  background-color: #2D2D2D;
+}
+
+
+.nav-bar {
+  margin-top: 13px;
+}
+
+footer p {
+  color: #fff;
+}
+
+#about-me-container, #website-container, #web-projects-container, #other-projects-container {
+  padding: 2% 0;
+  color: #111;
+  background-color: #ddd;
+}
+
+b {
+  font-size: 12px;
+}
+
+#header-container { 
+   width: 100%;
+   position: fixed;
+   top: 0; 
+   left: 0;
+   z-index: 900; 
+   border-bottom: 12px brown solid;
+    -webkit-box-shadow: -1px 10px 11px -9px #444;
+            box-shadow: -1px 10px 11px -9px #444;
+
+}
+
+.button { background: grey; border: 1px solid grey;}
+.button:hover, .button:focus { background-color: darkgrey; }
+
+.jump {
+    position: relative;
+    top: -100px;
+}
+
+p.coming-soon {
+  padding: 13% 0;
+  font: 380% strokeregular;
+  color: black;
+  text-transform: uppercase;
+}
+
+#content p {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 767px) { 
+h1 {
+  font-size: 250%;
+}
+
+}
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
